@@ -16,7 +16,7 @@ RUN true \
 
 # ---
 
-FROM alpine
+FROM alpine:3.18.3
 
 RUN true \
   && apk add -U --no-cache ca-certificates
